@@ -45,6 +45,6 @@ public class SpecDrom {
     public static ResponseSpecification responseSpecDelete = new ResponseSpecBuilder()
             .log(STATUS)
             .log(BODY)
-            .expectStatusCode(200)
+            .expectStatusCode(204)
             .build();
 }

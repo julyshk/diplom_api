@@ -11,7 +11,7 @@ import static specs.SpecDrom.*;
 public class ApiSearchCar {
 
     @Test
-    @DisplayName("Проверка запроса поиска всех автомобилей'")
+    @DisplayName("Проверка запроса поиска всех автомобилей")
     void searchAllCar() {
         step("Отправить запрос GET 'https://auto.drom.ru/all'", () -> {
 
@@ -25,7 +25,7 @@ public class ApiSearchCar {
     }
 
     @Test
-    @DisplayName("Добавление объявления о продаже автомобиля в избранное'")
+    @DisplayName("Добавление объявления о продаже автомобиля в избранное")
     void addToFavorites() {
         step("Отправить запрос POST 'https://www.drom.ru/api/sales/bull/favorite/add'", () -> {
 
@@ -44,7 +44,7 @@ public class ApiSearchCar {
     }
 
     @Test
-    @DisplayName("Удаление объявления о продаже автомобиля из избранного'")
+    @DisplayName("Удаление объявления о продаже автомобиля из избранного")
     void removeFromFavorites() {
         step("Отправить запрос POST 'https://www.drom.ru/api/sales/bull/favorite/delete", () -> {
 
