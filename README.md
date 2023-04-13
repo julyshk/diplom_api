@@ -33,10 +33,8 @@ allure serve build/allure-results
 
 ![This is an image](/images/screens/jenkins.png)
 
-2. Выбрать пункт **Собрать с параметрами**
-3. В случае необходимости изменить параметры, выбрав значения из выпадающих списков
-4. Нажать **Собрать**
-5. Результат запуска сборки можно посмотреть в отчёте Allure
+2. Выбрать пункт **Собрать сейчас**
+3. Результат запуска сборки можно посмотреть в отчёте Allure
 
 ## <img src="images/logo/Allure.svg" width="25" height="25"  alt="Allure"/></a> Отчет в <a target="_blank" href="https://jenkins.autotests.cloud/job/017-July_Shk-jenkins_diplom_api/3/allure/">Allure report</a>
 
