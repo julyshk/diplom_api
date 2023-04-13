@@ -11,7 +11,7 @@ public class ApiDelete {
     @Test
     @DisplayName("Проверка запроса удаления пользователя")
     void searchAllCar() {
-        step("Отправить запрос GET 'https://reqres.in/api/users/2'", () -> {
+        step("Отправить запрос DELETE 'https://reqres.in/api/users/2'", () -> {
 
             given(requestSpecDelete)
                     .log().uri()
